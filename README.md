@@ -8,10 +8,6 @@ Only one ensemble member per model is stored (for fairer ensemble averaging).
 
 For some instances, the files are not direct downloads from the ESGF, but slightly altered ones to conform to the requirements of the Climate Variability Diagnostics Package.
 
-The majority of the files sourced from CEDA's ESGF replica at on the JASMIN machine. There is a virtual directory that contains nothing but symbolic links. It is downloaded and updated by running the following commmand from the location of this README.
-
-  rsync -avzL jasmin-xfer1.ceda.ac.uk:workspace_ucfaccb/virtual_ESGF_replica/ curated_ESGF_replica
-
 There is a special addition, which is C20-Reanalysis. This is actually an observationally based reanalysis product, so has no experimnet name associated with. It is added into the historical simulatio deck.
 
 There have been a couple of manual edits since to remove inconsistencies in the downloaded data. These were
